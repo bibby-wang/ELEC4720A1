@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/uni/ELEC4720/Lesson 5 - Simulation, Testbenches and Modelsim/Additional Example 2
+vmult
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1568001635
+!i10b 1
+!s100 EQhFQ`VDa=^0@dU[E4`9j3
+ITYSG9Gk<cNk6A6f?Ma:@Y0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Q3_sv_unit
+S1
+Z3 dD:/uni/ELEC4720/Assignment 1/Q3test
+w1567398157
+8D:/uni/ELEC4720/Assignment 1/Q3test/Q3.sv
+FD:/uni/ELEC4720/Assignment 1/Q3test/Q3.sv
+L0 4
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1568001635.000000
+!s107 D:/uni/ELEC4720/Assignment 1/Q3test/Q3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/uni/ELEC4720/Assignment 1/Q3test/Q3.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vQ3_test
+R0
+R1
+!i10b 1
+!s100 `>4X:7zc0NB`<m38N2LU>3
+IJ5]LeCg<MmQ9829`^XzlS3
+R2
+!s105 Q3_test_sv_unit
+S1
+R3
+w1568001632
+8D:\uni\ELEC4720\Assignment 1\Q3test\Q3_test.sv
+FD:\uni\ELEC4720\Assignment 1\Q3test\Q3_test.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\uni\ELEC4720\Assignment 1\Q3test\Q3_test.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\uni\ELEC4720\Assignment 1\Q3test\Q3_test.sv|
+!i113 1
+R6
+R7
+n@q3_test

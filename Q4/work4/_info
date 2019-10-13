@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/uni/ELEC4720/Assignment 1/Q3test
+vQ4
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1567945194
+!i10b 1
+!s100 7I6nz_VanzKj>zd==9MQZ1
+IT8l=mSJzPNac:<eaA0YiL3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Q4_sv_unit
+S1
+Z2 dD:/uni/ELEC4720/Assignment 1/Q4
+w1567945189
+8D:/uni/ELEC4720/Assignment 1/Q4/Q4.sv
+FD:/uni/ELEC4720/Assignment 1/Q4/Q4.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1567945194.000000
+!s107 D:/uni/ELEC4720/Assignment 1/Q4/Q4.sv|
+!s90 -reportprogress|300|-work|work4|-sv|-stats=none|D:/uni/ELEC4720/Assignment 1/Q4/Q4.sv|
+!i113 1
+Z4 o-work work4 -sv
+Z5 tCvgOpt 0
+n@q4
+vQ4tes
+R0
+!s110 1567945210
+!i10b 1
+!s100 Xh0F1A>;BnG?J>zR:1_]o0
+IjTlJQ:5aWe^WZkUL3P98B1
+R1
+!s105 Q4tes_sv_unit
+S1
+R2
+w1567944976
+8D:/uni/ELEC4720/Assignment 1/Q4/Q4tes.sv
+FD:/uni/ELEC4720/Assignment 1/Q4/Q4tes.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567945210.000000
+!s107 D:/uni/ELEC4720/Assignment 1/Q4/Q4tes.sv|
+!s90 -reportprogress|300|-work|work4|-sv|-stats=none|D:/uni/ELEC4720/Assignment 1/Q4/Q4tes.sv|
+!i113 1
+R4
+R5
+n@q4tes

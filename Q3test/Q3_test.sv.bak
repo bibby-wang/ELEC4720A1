@@ -1,0 +1,34 @@
+module Q3_test ();
+	logic [7:0] a,b;
+	logic [15:0] t,y;
+
+	// apply inputs one at a time and check results
+	initial begin
+		assign a=8'd0;//first number
+		assign b=8'd0;//other number
+		for(int i=0;i<255;i++)
+		
+			
+			
+			for(int j=0;j<255;j++)
+			
+				
+				mult tesT1(a, b, y); // instantiate mult
+				assign t =i*j;
+				
+				
+				//check each bit
+				for(int N=0; N<16; N++) begin
+					#1;
+					if (y[N] !== t[N]) $display("Input %d failed.",N);
+					else $display("Input %d ok.",N);
+				end
+				
+				b++;
+			end
+			
+			a++;
+		end
+	end
+endmodule
+

@@ -1,0 +1,8 @@
+{D:/uni/ELEC4720/Assignment 1/Q3test/Q3.sv} {1 {vlog -work work -sv -stats=none {D:/uni/ELEC4720/Assignment 1/Q3test/Q3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mult
+
+Top level modules:
+	mult
+
+} {} {}}
