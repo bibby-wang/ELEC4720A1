@@ -6,12 +6,10 @@ module Q6(
 
 	//input number dispaly
 	assign LEDR = SW;
-
-	//instruction_Classifier_6 out(SW[5:0],LEDG[6],LEDG[5],LEDG[4],LEDG[3],LEDG[2],LEDG[1],LEDG[0]);
 	Priority_6 p4(SW[5:0],LEDG[6:0]);
 endmodule
 
-//Q6
+//Q6 6 bit
 module Priority_6
 	(input logic [5:0] a,
 	 output logic [6:0] b);
@@ -26,7 +24,7 @@ module Priority_6
 	assign b[4:0] = f[4:0] & {5{e[0]}};
 
 endmodule
-//do not know down part
+
 // 4-bit priority circuit from 2-bit priority circuits
 module Priority_4	
 	(input logic [3:0] a,
