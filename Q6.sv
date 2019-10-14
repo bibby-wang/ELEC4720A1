@@ -1,4 +1,6 @@
-module Q6(
+//bibby.wang elec4720 Ass1 Q6
+//6 bit top level instruction classifier
+module Ass1(
 	input logic [5:0] SW,
 	output logic [6:0] LEDG,
 	output logic [5:0] LEDR

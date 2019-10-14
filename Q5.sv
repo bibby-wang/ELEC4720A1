@@ -27,7 +27,7 @@ module Ass1(
 	
 	
 endmodule
-//
+// Alpha 
 // module MUX2_1 
 	// #(parameter N = 2)
 	// (input logic [(2**N)-1:0]A,B,
@@ -41,7 +41,8 @@ endmodule
 // end
 
 // endmodule
-//bibby.wang elec4720 Ass1 Q5
+
+// bibby.wang elec4720 Ass1 Q5
 module MUX2_1 
 	#(parameter N = 2)
 	(input logic [2**N-1:0] A, B,
