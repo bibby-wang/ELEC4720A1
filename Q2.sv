@@ -17,7 +17,7 @@ module Ass1(
 endmodule
 
 
-//bibby.wang elec4720 Ass1 Q1
+//Binbin Wang c3214157 elec4720 Ass1 Q1
 //useing 4bit sw control HEX0 dispany 0 to f
 module seven_seg(
 				input logic [3:0] S,
@@ -41,7 +41,7 @@ module seven_seg(
 	assign HEX[6] = ~((~S[2] & S[1]) | (S[1] & ~S[0]) | (~S[3] & S[2] & ~S[1]) | (S[3] & ~S[2]) | (S[3] & S[0]));
 endmodule
 
-//bibby.wang elec4720 Ass1 Q2
+//Binbin Wang c3214157 elec4720 Ass1 Q2
 //two 4 bit wide numbers to produce a 7 bit wide result of multiplication.
 
 module mult(
@@ -50,7 +50,6 @@ module mult(
 		output cout
 		) ;
 		
-////
 		logic [7:0] t1, t2, t3, t4, out1, out2;
 		logic [2:0] c;
 

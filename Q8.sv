@@ -1,4 +1,4 @@
-//bibby.wang elec4720 Ass1 Q8
+//Binbin Wang c3214157 elec4720 Ass1 Q8
 //design a multiply-divide hardware
 module Ass1(
 

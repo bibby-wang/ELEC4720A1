@@ -1,4 +1,4 @@
-//bibby.wang elec4720 Ass1 Q4
+//Binbin Wang c3214157 elec4720 Ass1 Q4
 //the `logic unit' of the MIPS processor.4:1 MUX
 module Ass1(
 
@@ -48,7 +48,7 @@ end
 endmodule
 
 
-//bibby.wang elec4720 Ass1 Q1
+//Binbin Wang c3214157 elec4720 Ass1 Q1
 //useing 4bit S control HEX dispany 0 to f
 module seven_seg(
 				input logic [3:0] S,

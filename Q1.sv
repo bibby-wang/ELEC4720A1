@@ -9,7 +9,7 @@ module Ass1(
 endmodule
 
 
-//bibby.wang elec4720 Ass1 Q1
+//Binbin Wang c3214157 elec4720 Ass1 Q1
 //useing 4bit sw control HEX0 dispany 0 to f
 module seven_seg(input logic [3:0] SW,output logic [6:0] HEX0);
 

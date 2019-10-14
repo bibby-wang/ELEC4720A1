@@ -1,4 +1,4 @@
-//bibby.wang elec4720 Ass1 Q3
+//Binbin Wang c3214157 elec4720 Ass1 Q3
 //testing 0*0 to 255*255
 module Q3_test ();
 	logic [7:0] a,b;

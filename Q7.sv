@@ -1,4 +1,4 @@
-//bibby.wang elec4720 Ass1 Q7
+//Binbin Wang c3214157 elec4720 Ass1 Q7
 //shifter unit
 module Ass1(
 	input logic [9:0] SW,
