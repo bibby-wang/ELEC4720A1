@@ -1,10 +1,8 @@
 //bibby.wang elec4720 Ass1 Q5
 //the `logic unit' of the MIPS processor.
 module Ass1(
-
 	input logic [8:0] SW,
-
-	output logic [6:0] HEX0,HEX1,HEX2,
+	output logic [6:0] HEX0,HEX2,HEX3,
 	output logic [1:0] LEDG,
 	output logic [3:0] LEDR
 	);
@@ -12,8 +10,8 @@ module Ass1(
 	
 
 	// input A, B
-	seven_seg  disp0(SW[3:0], HEX0);
-	seven_seg  disp1(SW[7:4], HEX1);
+	seven_seg  disp2(SW[3:0], HEX2);
+	seven_seg  disp3(SW[7:4], HEX3);
 	// control signal F
 	assign LEDG[0]=SW[8];
 	
@@ -22,7 +20,7 @@ module Ass1(
 	MUX2_1 ab(SW[3:0],SW[7:4],SW[8],Result);
 	
 	//Hexadecimal number dispaly
-	seven_seg disp2(Result, HEX0);
+	seven_seg disp0(Result, HEX0);
 
 	//Binary number dispaly
 	assign LEDR = Result;	
@@ -36,13 +34,12 @@ endmodule
 	 // input logic S,
 	 // output logic [(2**N)-1:0]Y);
 	 
-// always @(*)
+// always_comb
 // begin
 	// if (S==0) assign Y = A + B;  //  a + b
 	// else assign Y = A + ~B + 1; // a - b
-
-
 // end
+
 // endmodule
 //bibby.wang elec4720 Ass1 Q5
 module MUX2_1 
