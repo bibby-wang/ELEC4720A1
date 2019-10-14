@@ -9,7 +9,6 @@ module Ass1(
 endmodule
 
 //Q8 
-module shifter_B 
-
-      
+module mult_div
+	
 endmodule
