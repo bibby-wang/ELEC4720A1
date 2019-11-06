@@ -29,27 +29,26 @@ module Ass1(
 	
 	
 endmodule
-//
+// Q4
 module MUX4_1 
 	#(parameter N = 2)
 	(input logic [(2**N)-1:0]A,B,
 	 input logic [1:0]F,
 	 output logic [(2**N)-1:0]Y);
 	 
-always_comb
-begin
-	case(F)
-		0: Y = A & B;  // 00 a and b
-		1: Y = A | B;  // 01 a or b
-		2: Y = A ^ B;  // 10 a xor b
-		3: Y = ~(A|B); // 11 ~(a|b)
-	endcase
-end
+	always_comb
+	begin
+		case(F)
+			0: Y = A & B;  // 00 a and b
+			1: Y = A | B;  // 01 a or b
+			2: Y = A ^ B;  // 10 a xor b
+			3: Y = ~(A|B); // 11 ~(a|b)
+		endcase
+	end
 endmodule
 
 
-//Binbin Wang c3214157 elec4720 Ass1 Q1
-//useing 4bit S control HEX dispany 0 to f
+// Q1
 module seven_seg(
 				input logic [3:0] S,
 				output logic [6:0] HEX);

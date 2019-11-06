@@ -16,11 +16,12 @@ module shifter_B
 	#(parameter N = 4)
 	(input logic [2**N-1:0] A,B,
 	 input logic [N:0] C,
-	 input logic [2:0] F,//control 
+	 input logic [2:0] F, //control 
 	 output logic [2**N-1:0] Y);
 	 logic [N:0]O;
 	always_comb
-
+//assign y = s ? d1 : d0; // observe: multi-bit assignment!
+//assign O = F[2] ? C : {'b0,B[3:0]}; 
 	begin
 		case(F[2])
 			0: O=C;
@@ -30,6 +31,7 @@ module shifter_B
 	shifter_A #(.N(N))shA(A,O,F[1:0],Y);
 	
 endmodule
+
 //Q7 a
 module shifter_A 
 	#(parameter N = 4)
