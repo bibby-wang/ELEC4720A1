@@ -49,14 +49,14 @@ module multi_div
 	#(parameter N= 4)
 	(input logic [N-1:0]A,B, 
 	 input logic clk,
-	 input logic [3:0]F,			
+	 input logic [3:0]F,//3改成2 //组合版	
 	 output logic [N-1:0]Y,
 	 output logic [N-1:0] out_hi,out_lo);
 	assign {out_hi,out_lo}={C_hi,C_lo};
 	
 	logic EN1, EN2;
 	logic [N-1:0] Hi,Lo,H, L, R, Q, C_hi,C_lo;
-
+	//修改 删除 F[2] 3改成2 //组合版
 	assign EN1 = (F[3] | (~F[1] & F[0]))& ~F[2];
 	assign EN2 = (F[3] | ( F[1] & F[0]))& ~F[2];
 	
